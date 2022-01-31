@@ -1,103 +1,76 @@
-/**
-* Template Name: MyPortfolio - v2.2.1
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/Helvetica.ttf);
+  src: url(../fonts/HelveticaNeueLTPro-Roman.otf);
 }
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/Helvetica-Bold.ttf);
+  src: url(../fonts/HelveticaNeueLTPro-Bd.otf);
   font-weight: bold;
 }
 
-*, input, a {
+/*--------------------------------------------------------------
+# general
+--------------------------------------------------------------*/
+
+body {
+  background-color: #000;
+}
+*,
+input,
+a {
   font-family: 'Helvetica', sans-serif;
+  color: white;
 }
 
 a {
-  color: #000;
+  color: #fff;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #000;
+  color: #0f1c8c;
 }
-
-
+a:visited {
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # hero
 --------------------------------------------------------------*/
-.hero{
-  background-color: #000;
-  padding: 9rem 0;
+.hero {
+  padding: 6rem 0 1rem 0;
 }
 
 .hero-heading {
-  color: #fff;
-  font-weight: 400 !important;
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 3rem;
   line-height: 55px;
 }
-
-.hero a {
-  color: #fff;
+nav {
+  padding: 1.5% 2% 0 0;
+  background-color: #000;
 }
-
-.hero a:hover {
-  color: #0F1C8C;
-}
-.hero :visited {
-  color: #fff;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background-color: #fff;
-  color: #000;
   padding: 0 0 2rem 0;
 }
 
-.footer a {
-  color: #000;
-}
-
-.footer a:hover {
-  color: #0F1C8C;
-}
-.footer :visited {
-  color: #000;
-}
-
 /*custom footer*/
-.typer .cursor{
-  color: #000;
+.typer .cursor {
+  color: #fff;
 }
-.typer-line{
+.typer-line {
   font-size: 2.5rem;
   font-weight: 700 !important;
-  padding: 10% 0;
+  padding: 3% 0;
 }
-.typer-title{
+.typer-title {
   font-size: 4rem;
 }
 
-.credits{
+.credits {
   font-size: 0.7rem;
-  color: #000
+  color: #000;
 }
-
-
-
