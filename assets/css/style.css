@@ -7,7 +7,15 @@
   src: url(../fonts/HelveticaNeueLTPro-Bd.otf);
   font-weight: bold;
 }
-
+@font-face {
+  font-family: Atkinson;
+  src: url(../fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+@font-face {
+  font-family: Atkinson;
+  src: url(../fonts/AtkinsonHyperlegible-Bold.ttf);
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # general
 --------------------------------------------------------------*/
@@ -18,34 +26,37 @@ body {
 *,
 input,
 a {
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #000;
 }
-
+.p-text {
+  font-family: "Atkinson", sans-serif;
+  color: #3f3f3f;
+}
 a {
   color: black;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #0029FF;
+  color: #0029ff;
 }
 a:visited {
   color: #000;
 }
 
-.blue{
-  color: #0029FF !important;
+.blue {
+  color: #0029ff !important;
 }
 
-h2{
+h2 {
   font-size: 1.3rem;
 }
-h4{
+h4 {
   font-size: 1rem;
 }
-.webnotes-link{
-  text-decoration: underline;
+.webnotes-link {
+  text-decoration: underline !important;
 }
 /*--------------------------------------------------------------
 # hero
@@ -98,10 +109,10 @@ h4{
   opacity: 1;
   visibility: visible;
 }
-.carousel-control-next, .carousel-control-prev {
-  color: #000
+.carousel-control-next,
+.carousel-control-prev {
+  color: #000;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -130,7 +141,7 @@ h4{
 nav {
   padding: 2% 2% 1.5% 0;
 }
-nav a{
+nav a {
   font-size: 1.1rem;
   text-decoration: none !important;
 }
@@ -143,11 +154,22 @@ nav a{
 }
 
 .nav-active {
-  background-color:#000;
+  background-color: #000;
   color: #fff;
   padding: 1% 2% 1% 0;
 }
-.nav-fixed.nav-active a{
+.nav-fixed.nav-active a {
   font-size: 0.9rem;
   color: #fff;
+}
+
+.btn-custom {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 3rem;
+}
+
+.footer-photos {
+  margin-left: -140px;
 }
