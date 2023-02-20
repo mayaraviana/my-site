@@ -1,38 +1,12 @@
-@font-face {
-  font-family: Helvetica;
-  src: url(../fonts/HelveticaNeueLTPro-Roman.otf);
-}
-@font-face {
-  font-family: Helvetica;
-  src: url(../fonts/HelveticaNeueLTPro-Bd.otf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Atkinson;
-  src: url(../fonts/AtkinsonHyperlegible-Regular.ttf);
-}
-@font-face {
-  font-family: Atkinson;
-  src: url(../fonts/AtkinsonHyperlegible-Bold.ttf);
-  font-weight: bold;
-}
-/*--------------------------------------------------------------
-# general
---------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap");
 
-body {
-  background-color: #fff;
-}
 *,
 input,
 a {
-  font-family: "Helvetica", sans-serif;
-  color: #000;
+  font-family: "Gothic A1", sans-serif;
+  color: black;
 }
-.p-text {
-  font-family: "Atkinson", sans-serif;
-  color: #3f3f3f;
-}
+
 a {
   color: black;
   text-decoration: underline;
@@ -44,7 +18,10 @@ a:hover {
 a:visited {
   color: #000;
 }
-
+h1 {
+  font-size: 1.5rem;
+  line-height: 150%;
+}
 .blue {
   color: #0029ff !important;
 }
@@ -63,12 +40,6 @@ h4 {
 --------------------------------------------------------------*/
 .hero {
   padding: 6rem 0 1rem 0;
-}
-
-.hero-heading {
-  font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 69px;
 }
 
 .works a {
@@ -172,4 +143,23 @@ nav a {
 
 .footer-photos {
   margin-left: -140px;
+}
+.work {
+  margin-bottom: 5rem;
+}
+.work > h3 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.work > p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0.125rem;
+}
+
+section {
+  margin: 5rem 0 0;
 }
