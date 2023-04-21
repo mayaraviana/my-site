@@ -21,18 +21,26 @@
 --------------------------------------------------------------*/
 
 body {
-  background-color: #fff;
+  background-color: #f9f9fa;
 }
-*,
+p,
 input,
 a {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Archivo", sans-serif;
   color: #000;
 }
-.p-text {
-  font-family: "Atkinson", sans-serif;
-  color: #3f3f3f;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  color: #000;
 }
+
 a {
   color: black;
   text-decoration: underline;
@@ -66,7 +74,6 @@ h4 {
 }
 
 .hero-heading {
-  font-weight: 400;
   font-size: 3.5rem;
   line-height: 69px;
 }
@@ -149,7 +156,7 @@ nav a {
   width: 100%;
   position: fixed;
   transition: 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #f9f9fa;
   color: #000;
 }
 
@@ -159,7 +166,6 @@ nav a {
   padding: 1% 2% 1% 0;
 }
 .nav-fixed.nav-active a {
-  font-size: 0.9rem;
   color: #fff;
 }
 
