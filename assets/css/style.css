@@ -36,16 +36,7 @@ a {
   text-decoration: none;
 }
 
-a:hover > h3 {
-  text-decoration: underline;
-  color: black;
-}
-
-a:hover > h4 {
-  text-decoration: underline;
-  color: black;
-}
-a:hover > p {
+a:hover {
   text-decoration: underline;
   color: black;
 }
@@ -54,4 +45,28 @@ a:hover > p {
   text-decoration: underline;
   position: relative;
   z-index: 999;
+}
+
+nav {
+  padding: 2% 2% 1.5% 0;
+}
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none !important;
+}
+.nav-fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+  background-color: #f9f9fa;
+  color: #000;
+}
+
+.nav-active {
+  background-color: #000;
+  color: #fff;
+  padding: 1% 2% 1% 0;
+}
+.nav-fixed.nav-active a {
+  color: #fff;
 }
